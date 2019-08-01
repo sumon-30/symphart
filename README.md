@@ -58,3 +58,13 @@ http://localhost:8000/lucky/number will work exactly
 run php bin/console debug:router
 
 ## Rendering a Template
+
+1. run composer require twig
+
+2. In controller 
+Declare use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+And then, extends Controller
+
+return $this->render('articles/index.html.twig');
+
+3. Create Template under templates folder
