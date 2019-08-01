@@ -1,7 +1,7 @@
 This is a symfony project.
 Symfony 4.3.3
 
-How to install symfony with xampp
+## How to install symfony with xampp
 
 1. create symfonu project from git
     -go to xampp/http
@@ -23,10 +23,10 @@ And then,when we call 127.0.0.1/symphart/public, we can see "Welcome to Symfony 
     127.0.0.1 symphart.test
 When we call symphart.test , we can see "Welcome to Symfony 4.3.3" page
 
-In the project
+## In the project
 - create .htaccess file under public folder
 
-How to create a page
+## How to create a page
 
 - create ArticleController under controller folder
 
@@ -36,7 +36,7 @@ How to create a page
    path: /
    controller: App\Controller\ArticleController::index
 
-Annotation Routes
+## Annotation Routes
 1. run composer require annotations
 
 2. define this in controller
@@ -56,3 +56,5 @@ http://localhost:8000/lucky/number will work exactly
 
 4. To get a list of all of the routes in your system
 run php bin/console debug:router
+
+## Rendering a Template
